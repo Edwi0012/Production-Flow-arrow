@@ -1,2 +1,2 @@
 # Production-Flow-arrow
-An arrow for production flow made for Qlik Sense with extended possibilities
+An Qlik sense extension made as an arrow to visualize production flow with extended possibilities
