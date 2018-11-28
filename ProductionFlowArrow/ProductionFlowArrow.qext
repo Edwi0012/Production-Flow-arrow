@@ -1,0 +1,15 @@
+{
+    "name": "ProductionFlowArrow",
+    "description": "Basic empty visualization template based on angular.js",
+    "type": "visualization",
+    "version": "1.0.0",
+    "author": "Pontus Myhrberg & Erik Borenäs (pontusmyhrberg96@gmail.com & erik.borenas@hotmail.com)",
+    "homepage": "",
+    "keywords": "qlik-sense, visualization",
+    "license": "",
+    "preview": "arrow.png",
+    "repository": "",
+    "dependencies": {
+        "qlik-sense": ">=3.0.x"
+    }
+}

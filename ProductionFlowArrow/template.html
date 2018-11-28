@@ -1,0 +1,90 @@
+<!--HTML DOCUMENT template-->
+<div ng-style="container">
+	<div  ng-style="arrow_right">
+		<lui-button ng-click="doNavigate(); doAction()" ng-style="depart">
+			{{layout.thedepartment}}
+		</lui-button>
+	</div>
+	
+	<!-- ********************************************************************************
+	******									UPPER BOXES							  *******
+	**********************************************************************************-->
+	
+	<div ng-style="upper_bottom0">
+		<div ng-style="myh"> <b ng-bind="upperValue[0]" /> </div>
+	</div>
+	
+	<div ng-style="upper_bottom1">
+		<div ng-style="myh"> <b ng-bind="upperValue[1]" /> </div>
+	</div>
+	
+	<div ng-style="upper_bottom2">
+		<div ng-style="myh"> <b ng-bind="upperValue[2]"/> </div>
+	</div>
+	
+	<div ng-style="upper_bottom3">
+		<div ng-style="myh"> <b ng-bind="upperValue[3]" /> </div>
+	</div>
+	
+	<div ng-style="upper_top0">
+		<div ng-style="myh"> <b ng-bind="upperTitle[0]" /> </div>
+	</div>
+	
+	<div ng-style="upper_top1">
+		<div ng-style="myh"> <b ng-bind="upperTitle[1]" /> </div>
+	</div>
+	
+	<div ng-style="upper_top2">
+		<div ng-style="myh"> <b ng-bind="upperTitle[2]" /> </div>
+	</div>
+	
+	<div ng-style="upper_top3">
+		<div ng-style="myh"> <b ng-bind="upperTitle[3]" /> </div>
+	</div>
+	
+	<!-- ********************************************************************************
+	******									LOWER BOXES							  *******
+	**********************************************************************************-->
+
+	
+	<div ng-style="lower_bottom0">
+		<div ng-style="myh"> <b ng-bind="lowerValue[0]" /> </div>
+	</div>
+	
+	<div ng-style="lower_bottom1">
+		<div ng-style="myh"> <b ng-bind="lowerValue[1]" /> </div>
+	</div>
+	
+	<div ng-style="lower_bottom2">
+		<div ng-style="myh"> <b ng-bind="lowerValue[2]" /> </div>
+	</div>
+	
+	<div ng-style="lower_bottom3">
+		<div ng-style="myh"> <b ng-bind="lowerValue[3]" /> </div>
+	</div>
+	
+	<div ng-style="lower_top0">
+		<div ng-style="myh"> <b ng-bind="lowerTitle[0]" /> </div>
+	</div>
+	
+	<div ng-style="lower_top1">
+		<div ng-style="myh"> <b ng-bind="lowerTitle[1]" /> </div>
+	</div>
+	
+	<div ng-style="lower_top2">
+		<div ng-style="myh"> <b ng-bind="lowerTitle[2]" /> </div>
+	</div>
+	
+	<div ng-style="lower_top3">
+		<div ng-style="myh"> <b ng-bind="lowerTitle[3]" /> </div>
+	</div>
+	<!--Functions-->
+	<p> {{fontSizeBoxes()}} </p>
+	<p> {{fontSizeDepartment()}} </p>
+	<p> {{doNavigateColorArrow()}} </p>
+	<p> {{doNavigateColorDepartment()}} </p>
+	<p> {{doNavigateColorBoxesFont()}} </p>
+	<p> {{addBoxes()}} </p>
+	<p>{{dispValues()}}</p>
+	
+</div>
